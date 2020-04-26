@@ -1,0 +1,807 @@
+@import url(https://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
+
+body {
+	background-color: rgba(0,0,0,.8);
+}
+
+
+div#app {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div#updated {
+    text-align: right;
+    font-size: 9px;
+    color: silver;
+}
+
+div#updated .link {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 12pt;
+}
+
+div#popup {
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    z-index: 30;
+    width: 600px;
+    height: 600px;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+div#shareImage {
+    background-color: rgba(0,0,0,.25);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+img.savedImage {
+    width: 150px;
+}
+
+div#header {
+    margin: 10px;
+    margin-top: 20px;
+    color: ghostwhite;
+    /* text-shadow: 2px 2px black; */
+    font-family: helvetica;
+    font-size: 12px;
+    border-bottom: solid 1px white;
+    height: 80px;
+}
+
+#header img {
+    width: 80px;
+    /* margin-right: 10px; */
+    z-index: 20;
+    position: relative;
+    top: 5px;
+    /* left: 10px; */
+}
+
+#header h1 {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    text-shadow: 2px 2px black;
+    font-size: 42px;
+    padding-right: 10px;
+    display: inline-block;
+    margin: 0px;
+    vertical-align: top;
+    margin-top: 15px;
+    /* width: 862px; */
+    /* padding-left: 10px; */
+    /* position: relative; */
+    /* left: -35px; */
+    /* border-bottom: solid 1px white; */
+    /* z-index: -1; */
+}
+
+a#madeby {
+    display: inline-block;
+    /* vertical-align: bottom; */
+    /* padding-bottom: 9px; */
+    text-decoration: none;
+    color: ghostwhite;
+    position: relative;
+    top: -25px;
+}
+
+a#madeby:hover,
+a#twitterLink {
+    cursor: pointer;
+}
+
+#twitterLink img {
+    width: 15px;
+    vertical-align: top;
+    margin-top: 38px;
+    margin-left: 5px;
+}
+
+/*div.getsocial {
+    display: inline-block;
+    margin-left: 108px;
+    vertical-align: top;
+    margin-top: 24px;
+}*/
+
+div.addthis_sharing_toolbox {
+    display: inline-block;
+    margin-left: 215px;
+    vertical-align: top;
+    padding-top: 23px;
+}
+
+
+div#blurb {
+    color: ghostwhite;
+    /* text-shadow: 2px 2px black; */
+    font-family: helvetica;
+    font-size: 10pt;
+    margin: 50px;
+    margin-top: 30px;
+    /*margin-bottom: 10px;*/
+    width: 85%;
+    background-color: rgba(211,211,211,.1);
+    padding: 5px 20px 5px 20px;
+    line-height: 1.8;
+}
+
+div#blurb p {
+    margin: 5px;
+}
+
+
+div#jerseys {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    height: 100px;
+    overflow: hidden;
+    border-bottom: solid 1px ghostwhite;
+    margin-bottom: 5px;
+    padding-bottom: 1px;
+    margin-top: 30px;
+}
+
+div#menu {
+    /* color: white; */
+    /* width: 515px; */
+    font-family: helvetica;
+    margin-left: 10px;
+    /* width: 945px; */
+    font-size: 13px;
+    /* margin-top: 30px; */
+    /* border-radius: 1px; */
+    background-color: white;
+    margin-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#menu div {
+    /* padding-top: 10px; */
+    margin: 0px;
+    display: inline-block;
+    width: 155px;
+    /* padding-bottom: 10px; */
+    /* background-color: lightgray; */
+    text-align: center;
+    /* padding: 18px; */
+    /* background-color: white; */
+    /*border-bottom: solid 3px white;*/
+    padding-top: 10px;
+    padding-bottom: 11px;
+    vertical-align: top;
+}
+
+#menu div:hover {
+    cursor: pointer;
+    /*background-color: lightslategray;*/
+    /*color: white;*/
+}
+
+#menu div.selected {
+    /*background-color: darkorange; */
+    background-color: rgba(69, 123, 157,1);
+    color: white;
+    /*color: darkorange;*/
+    /*font-weight: bold; */
+    /*border-bottom: solid 4px darkorange*/
+}
+
+div#helpArea {
+    background-color: darkorange;
+    width: 30px;
+    padding: 0px;
+    height: 23px;
+    padding-top: 7px;
+    border-bottom: solid 3px darkorange;
+    display: inline-block;
+    margin-left: 7px;
+    text-align: center;
+}
+
+img#help {
+    width: 15px;
+    /* vertical-align: bottom; */
+    /* margin: 9px; */
+}
+
+div.playerNames {
+    display: inline-block;
+    width: 43px;
+    margin: 2px;
+    position: relative;
+    height: 100px;
+    vertical-align: top;
+    top: 15px;
+}
+
+div.playerNames img {
+    width: 80px;
+    -webkit-filter: grayscale(95%);
+    filter: grayscale(95%);
+    position: relative;
+    top: 17px;
+}
+
+div.playerNames img.selected,
+div.playerNames img.selected:hover,
+div.playerName img.active {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    top: -12px;
+}
+
+div.playerNames img:hover {
+    top: 7px;
+}
+
+
+div.playerNames img:hover {
+	cursor: pointer;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+div#vizLegend {
+    display: inline-block;
+    width: 503px;
+    /* height: 50px; */
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 8px;
+    /* border-bottom: solid 2px white; */
+    padding: 2px;
+    padding-bottom: 1px;
+    /* padding-right: 36px; */
+    text-align: center;
+}
+
+div#legendSection {
+    display: inline-block;
+    vertical-align: middle;
+    /*margin-bottom: 3px;*/
+}
+
+.legendScale.label {
+    padding-top: 10px;
+}
+
+.legendScale:first-child {
+    width: 78px;
+    text-align: center;
+
+}
+
+.legendScale img {
+    width: 15px;
+}
+
+.legendScale h5 {
+    margin: 0px;
+    font-size: 8px;
+    font-family: helvetica;
+    text-align: center;
+    font-weight: normal;
+}
+
+.legendScale h5.selectionType {
+    max-width: 40px;
+    /*padding-top: 12px;*/
+    font-size: 9px;
+    /* font-weight: bold; */
+    margin-left: 15px;
+    /* margin-right: 10px; */
+    /*vertical-align: middle;*/
+}
+
+#vizLegend .legendScale {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#vizLegend .legendScale div {
+    width: 15px;
+    height: 20px;
+    margin: 2px;
+}
+
+div#instructions {
+    /* margin: 100px; */
+    color: rgba(255,255,255,.15);
+    font-family: helvetica;
+    /* font-family: 'Carrois Gothic SC', sans-serif; */
+    text-align: center;
+    font-size: 12px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 200px;
+}
+
+.hide {
+    display: none;
+}
+
+.footer {
+    width: 980;
+    border-top: 1px solid rgba(255,255,255,.2);
+    margin: 10px;
+    margin-top: 80px;
+    text-align: center;
+    color: rgba(255,255,255,.2);
+    font-family: helvetica;
+    font-size: 13px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.footer a {
+    color: rgba(255,255,255,.2);
+    vertical-align: top;
+    padding: 5px;
+    margin-top: 0px;
+    /*font-size: 13px;*/
+    text-decoration: none;
+}
+
+.footer .footer-link:hover {
+    color: silver;
+}
+
+.vertBar {
+    font-size: 20px;
+    vertical-align: top;
+}
+
+div#visualization {
+    margin-top: 20px;
+}
+
+div.individualPlayerViz {
+	margin: 10px;
+    margin-top: 0px;
+    display: inline-block;
+    background-color: white;
+    padding: 0px;
+    padding-top: 5px;
+    border-radius: 0px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+div.individualPlayerViz h3 {
+    font-size: 15pt;
+    font-family: helvetica;
+    z-index: 1;
+    position: relative;
+    top: -42px;
+    color: white;
+    text-shadow: 1px 1px #000;
+    text-align: center;
+    margin: 0px;
+    background-color: rgba(0,0,0,.25);
+    height: 35px;
+    padding-top: 2px;
+    /* max-width: 250px; */
+}
+
+div.individualPlayerViz .individualPlayerVizInfo {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(255,255,255,.7);
+    border-radius: 5px;
+    z-index: 2;
+    position: relative;
+    left: -50px;
+    top: 5px;
+    height: 155px;
+}
+
+g.awardGroup text {
+    font-family: helvetica;
+    fill: white;
+    font-size: 15px;
+}
+
+g.x g.tick {
+	font-size: 7;
+}
+
+g.y g.tick,
+text.axisLabel {
+	font-size: 7;
+    font-family: helvetica;
+}
+
+div.profilePic {
+    width: 250px;
+    height: 215px;
+    vertical-align: top;
+    display: inline-block;
+    z-index: -1;
+    overflow: hidden;
+}
+
+div.profilePic img {
+	width: 100%;
+}
+
+.playerAwards {
+    display: inline-block;
+    vertical-align: top;
+    width: 235px;
+    margin-left: 5px;
+    top: -5px;
+    position: relative;
+}
+
+.playerAwards div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-family: helvetica;
+}
+
+.playerAwards .titles {
+    /* display: inline-block; */
+    width: 70px;
+    text-align: center;
+    background-color: lightgray;
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    margin-top: 5px;
+    height: 146px;
+    margin-right: 5px;
+}
+
+.titles img {
+    width: 60px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.titles h2 {
+    margin-top: 0px !important;
+}
+
+.playerAwards .selections {
+    width: 160px;
+}
+
+.playerAwards .selections div {
+    display: inline-block;
+    width: 70px;
+    height: 68px;
+    margin: 5px;
+    text-align: center;
+    font-family: helvetica;
+}
+
+.playerAwards h2 {
+    background-color: rgba(0,0,0,0) !important;
+    text-align: center;
+    margin: 4px;
+    color: white;
+    text-shadow: 1px 1px #000;
+    font-size: 25pt;
+}
+
+.playerAwards span {
+	font-size: 7pt;
+    /*font-weight: bold;*/
+}
+
+.playerAwards .mvp {
+	background-color: rgba(255,204,0,1);
+    /*background-color: rgba(230, 57, 70,1);*/
+}
+
+.playerAwards .probowl {
+	/*background-color: rgba(187,68,0,1);*/
+    background-color: rgba(58, 80, 107,1);
+    color: white;
+}
+
+.playerAwards .opy {
+	/*background-color: rgba(221,51,0,1);*/
+    background-color: rgba(69, 123, 157,1);
+    color: white;
+
+}
+
+.playerAwards .allpro {
+	/*background-color: rgba(255,140,0,1);*/
+    background-color: rgba(168, 218, 220,1);
+
+}
+
+.playerAwards .superbowl {
+    background-color: lightgray;
+}
+
+div.playerTimeline, 
+div.playerTrophies {
+    top: -20px;
+    width: 480px;
+    /*left: 2px;*/
+}
+
+div.playerTimeline,
+div.nflTrophy,
+div.teamLogo {
+    position: relative;
+}
+
+div.playerTrophies {
+    /* height: 25px; */
+    overflow: hidden;
+    /*position: relative;*/
+    position: absolute;
+    top: 6px;
+    /* border-bottom: 1px solid lightgray; */
+    margin-bottom: 2px;
+}
+
+div.teamLogo,
+div.nflTrophy {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.teamLogo {
+    height:15px;
+}
+
+.legendScale .superbowl.firstteam,
+.award.superbowl.firstteam {
+    fill: lightgray;
+    background-color: lightgray;
+}
+
+.legendScale .mvp.firstteam,
+.award.mvp.firstteam {
+	fill: rgba(255,204,0,1);
+    background-color: rgba(255,204,0,1);
+    /*fill: rgba(230, 57, 70,1);
+    background-color: rgba(230, 57, 70,1);*/
+}
+
+.legendScale .probowl.firstteam,
+.award.probowl.firstteam {
+	/*fill: rgba(187,68,0,1);
+    background-color: rgba(187,68,0,1);*/
+    fill: rgba(58, 80, 107,1);
+    background-color: rgba(58, 80, 107,1);
+}
+
+.award.probowl.secondteam {
+	fill: rgba(187,68,0,.5);
+}
+
+.award.probowl.thirdteam {
+	fill: rgba(187,68,0,.2);
+}
+
+.legendScale .opy.firstteam,
+.award.opy.firstteam {
+	/*fill: rgba(221,51,0,1);
+    background-color: rgba(221,51,0,1);*/
+    fill: rgba(69, 123, 157,1);
+    background-color: rgba(69, 123, 157,1);
+}
+
+.legendScale .opy.secondteam, 
+.award.opy.secondteam {
+	fill: rgba(221,51,0,.2);
+    background-color: rgba(221,51,0,.2);
+}
+
+.legendScale .opy.thirdteam,
+.award.opy.thirdteam {
+	fill: rgba(221,51,0,.2);
+    background-color: rgba(221,51,0,.2);
+}
+
+.legendScale .allpro.firstteam,
+.award.allpro.firstteam {
+	/*fill: rgba(238,153,0,1);*/
+    /*fill: rgba(255,140,0,1);
+    background-color: rgba(255,140,0,1);*/
+    fill: rgba(168, 218, 220,1);
+    background-color: rgba(168, 218, 220,1);
+
+    
+}
+
+.legendScale .allpro.secondteam,
+.award.allpro.secondteam {
+	/*fill: rgba(238,153,0,.5);*/
+    /*fill: rgba(255,140,0,.5);
+    background-color: rgba(255,140,0,.5);*/
+    fill: rgba(168, 218, 220,.4);
+    background-color: rgba(168, 218, 220,.4);
+}
+
+.legendScale .allpro.thirdteam,
+.award.allpro.thirdteam {
+	/*fill: rgba(238,153,0,.2);*/
+    fill: rgba(255,140,0,.2);
+    background-color: rgba(255,140,0,.2);
+}
+
+
+
+/* Team Color codes */
+.oilers {
+    background-color: #418FDE;
+    fill: #418FDE;
+}
+
+.cardinals {
+    background-color: #97233F;
+    fill: #97233F;
+}
+
+.falcons {
+    background-color: #000000;
+    fill: #000000;
+}
+
+.redskins {
+    background-color: #773141;
+    fill: #773141;
+}
+
+.eagles {
+    background-color: #004C54;
+    fill: #004C54;
+}
+
+.giants {
+    background-color: #0B2265;
+    fill: #0B2265;
+}
+
+.cowboys {
+    background-color: #869397;
+    fill: #869397;
+}
+
+.chargers {
+    background-color: #FFC20E;
+    fill: #4D90CD;
+}
+
+.raiders {
+    background-color: #A5ACAF;
+    fill: #A5ACAF;
+}
+
+.chiefs {
+    background-color: #E31837;
+    fill: #E31837;
+}
+
+.broncos {
+    background-color: #FB4F14;
+    fill: #FB4F14;
+}
+
+.titans {
+    background-color: #4B92DB;
+    fill: #4B92DB;
+}
+
+.jaguars {
+    background-color: #D7A22A;
+    fill: #D7A22A;
+}
+
+.colts {
+    background-color: #002C5F;
+    fill: #002C5F;
+}
+
+.texans {
+    background-color: #03202F;
+    fill: #03202F;
+}
+
+.steelers {
+    background-color: #FFB612;
+    fill: #FFB612;
+}
+
+.browns {
+    background-color: #311D00;
+    fill: #311D00;
+}
+
+.bengals {
+    background-color: #FB4F14;
+    fill: #FB4F14;
+}
+
+.ravens {
+    background-color: #241773;
+    fill: #241773;
+}
+
+.jets {
+    background-color: #125740;
+    fill: #125740;
+}
+
+.patriots {
+    background-color: #002244;
+    fill: #002244;
+}
+
+.dolphins {
+    background-color: #008E97;
+    fill: #008E97;
+}
+
+.bills {
+    background-color: #00338D;
+    fill: #00338D;
+}
+
+.seahawks {
+    background-color: #002244;
+    fill: #002244;
+}
+
+.niners {
+    background-color: #AA0000;
+    fill: #AA0000;
+}
+
+.bucaneers {
+    background-color: #D50A0A;
+    fill: #D50A0A;
+}
+
+.saints {
+    background-color: #D3BC8D;
+    fill: #D3BC8D;
+}
+
+.panthers {
+    background-color: #0085CA;
+    fill: #0085CA;
+}
+
+.vikings {
+    background-color: #4F2683;
+    fill: #4F2683;
+}
+
+.packers {
+    background-color: #203731;
+    fill: #203731;
+}
+
+.lions {
+    background-color: #0076B6;
+    fill: #0076B6;
+}
+
+.bears {
+    background-color: #0B162A;
+    fill: #0B162A;
+}

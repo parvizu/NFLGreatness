@@ -1,0 +1,763 @@
+[
+	{
+		"name": "Tom Brady", 
+		"nickname": "brady",
+		"age": {
+			"first": 23,
+			"last": 43
+		},
+		"awards": {
+			"2000": [],
+			"2001": ["PB", "SB"],
+			"2002": [],
+			"2003": ["SB"],
+			"2004": ["PB", "SB"],
+			"2005": ["PB", "AP2"],
+			"2006": [],
+			"2007": ["PB", "OP", "AP1", "MVP", "SB"],
+			"2008": [],
+			"2009": ["PB"],
+			"2010": ["PB", "OP", "AP1", "MVP"],
+			"2011": ["PB", "SB"],
+			"2012": ["PB"],
+			"2013": ["PB"],
+			"2014": ["PB", "SB"],
+			"2015": ["PB"],
+			"2016": ["PB", "AP2", "SB"],
+			"2017": ["PB", "AP1", "MVP", "SB"],
+			"2018": ["PB", "SB"],
+			"2019": [],
+			"2020": []
+		},
+		"pics":["brady1.png","brady2.png","brady5.png","brady6.png","brady7.png", "brady8.png"],
+		"teams": [
+			{"team": "patriots", "start": 2000, "end": 2019, "careerStart":1, "careerEnd":20},
+			{"team": "bucaneers", "start": 2020, "end": 2020, "careerStart":21, "careerEnd":21}
+		],
+		"totals": {
+			"MVP": "3",
+			"AP": "5",
+			"OP": "2",
+			"PB": "14"
+		},
+		"championships": [2001,2003,2004,2014,2016,2018],
+		"finals": [2001,2003,2004,2007,2011,2014,2016,2017,2018]
+	},
+	{
+		"name": "Peyton Manning", 
+		"nickname": "peyton",
+		"age": {
+			"first": 22,
+			"last": 39
+		},
+		"awards": {
+			"1998": [],
+			"1999": ["PB", "AP2"],
+			"2000": ["PB", "AP2"],
+			"2001": [],
+			"2002": ["PB"],
+			"2003": ["PB", "AP1", "MVP"],
+			"2004": ["PB", "OP", "AP1", "MVP"],
+			"2005": ["PB", "AP1"],
+			"2006": ["PB", "AP2", "SB"],
+			"2007": ["PB"],
+			"2008": ["PB", "AP1", "MVP"],
+			"2009": ["PB", "AP1", "MVP", "SB"],
+			"2010": ["PB"],
+			"2011": [],
+			"2012": ["PB", "AP1"],
+			"2013": ["PB", "OP", "AP1", "MVP", "SB"],
+			"2014": ["PB"],
+			"2015": ["SB"]
+		},
+		"pics":["peyton3.png","peyton4.png","peyton5.png"],
+		"teams": [
+			{"team": "colts", "start": 1998, "end": 2011, "careerStart":1, "careerEnd":14},
+			{"team": "broncos", "start": 2012, "end": 2015, "careerStart":15, "careerEnd":18}
+		],
+		"totals": {
+			"MVP": "5",
+			"AP": "10",
+			"OP": "2",
+			"PB": "14"
+		},
+		"championships": [2006,2015],
+		"finals": [2006, 2009, 2013, 2015]
+	},
+	{
+		"name": "Aaron Rodgers", 
+		"nickname": "rodgers",
+		"age": {
+			"first": 22,
+			"last": 37
+		},
+		"awards": {
+			"2005": [],
+			"2006": [],
+			"2007": [],
+			"2008": [],
+			"2009": ["PB"],
+			"2010": ["SB"],
+			"2011": ["PB", "AP1", "MVP"],
+			"2012": ["PB", "AP2"],
+			"2013": [],
+			"2014": ["PB", "AP1", "MVP"],
+			"2015": ["PB"],
+			"2016": ["PB"],
+			"2017": [],
+			"2018": ["PB"],
+			"2019": ["PB"],
+			"2020": []
+		},
+		"pics":["rodgers1.png","rodgers2.png","rodgers3.png"],
+		"teams": [
+			{"team": "packers", "start": 2005, "end": 2020, "careerStart":1, "careerEnd":16}
+		],
+		"totals": {
+			"MVP": "2",
+			"AP": "3",
+			"OP": "0",
+			"PB": "8"
+		},
+		"championships": [2010],
+		"finals": [2010]
+	},
+	{
+		"name": "Drew Brees", 
+		"nickname": "brees",
+		"age": {
+			"first": 22,
+			"last": 41
+		},
+		"awards": {
+			"2001": [],
+			"2002": [],
+			"2003": [],
+			"2004": ["PB"],
+			"2005": [],
+			"2006": ["PB", "AP1"],
+			"2007": [],
+			"2008": ["PB", "OP", "AP2"],
+			"2009": ["PB", "AP2", "SB"],
+			"2010": ["PB"],
+			"2011": ["PB", "OP", "AP2"],
+			"2012": ["PB"],
+			"2013": ["PB"],
+			"2014": ["PB"],
+			"2015": [],
+			"2016": ["PB"],
+			"2017": ["PB"],
+			"2018": ["PB", "AP2"],
+			"2019": ["PB"],
+			"2020": []
+		},
+		"pics":["brees1.png","brees2.png","brees3.png"],
+		"teams": [
+			{"team": "chargers", "start": 2001, "end": 2005, "careerStart":1, "careerEnd":5},
+			{"team": "saints", "start": 2006, "end": 2020, "careerStart":6, "careerEnd":20}
+		],
+		"totals": {
+			"MVP": "0",
+			"AP": "5",
+			"OP": "2",
+			"PB": "13"
+		},
+		"championships": [2009],
+		"finals": [2009]
+	},
+	{
+		"name": "Joe Montana", 
+		"nickname": "montana",
+		"age": {
+			"first": 23,
+			"last": 38
+		},
+		"awards": {
+			"1979": [],
+			"1980": [],
+			"1981": ["PB", "AP2", "SB"],
+			"1982": [],
+			"1983": ["PB", "AP2"],
+			"1984": ["PB", "AP2", "SB"],
+			"1985": ["PB"],
+			"1986": [],
+			"1987": ["PB", "AP1"],
+			"1988": ["SB"],
+			"1989": ["PB", "OP", "AP1", "MVP", "SB"],
+			"1990": ["PB", "AP1", "MVP"],
+			"1991": [],
+			"1992": [],
+			"1993": ["PB"],
+			"1994": []
+		},
+		"pics":["montana1.png","montana2.png"],
+		"teams": [
+			{"team": "niners", "start": 1979, "end": 1992, "careerStart":1, "careerEnd":14},
+			{"team": "chiefs", "start": 1993, "end": 1994, "careerStart":15, "careerEnd":16}
+		],
+		"totals": {
+			"MVP": "2",
+			"AP": "6",
+			"OP": "1",
+			"PB": "8"
+		},
+		"championships": [1981,1984,1988,1989],
+		"finals": [1981,1984,1988,1989]
+	},
+	{
+		"name": "John Elway", 
+		"nickname": "elway",
+		"age": {
+			"first": 23,
+			"last": 38
+		},
+		"awards": {
+			"1983": [],
+			"1984": [],
+			"1985": [],
+			"1986": ["PB", "SB"],
+			"1987": ["PB", "AP1", "MVP", "SB"],
+			"1988": [],
+			"1989": ["PB", "SB"],
+			"1990": [],
+			"1991": ["PB"],
+			"1992": [],
+			"1993": ["PB", "AP2"],
+			"1994": ["PB"],
+			"1995": [],
+			"1996": ["PB", "AP2"],
+			"1997": ["PB", "SB"],
+			"1998": ["PB", "SB"]
+		},
+		"pics":["elway1.png","elway2.png","elway3.png"],
+		"teams": [
+			{"team": "broncos", "start": 1983, "end": 1998, "careerStart":1, "careerEnd":16}
+		],
+		"totals": {
+			"MVP": "1",
+			"AP": "3",
+			"OP": "0",
+			"PB": "9"
+		},
+		"championships": [1997,1998],
+		"finals": [1986,1987,1989,1997,1998]
+	},
+	{
+		"name": "Brett Favre", 
+		"nickname": "favre",
+		"age": {
+			"first": 22,
+			"last": 41
+		},
+		"awards": {
+			"1991": [],
+			"1992": ["PB"],
+			"1993": ["PB"],
+			"1994": [],
+			"1995": ["PB", "OP", "AP1", "MVP"],
+			"1996": ["PB", "AP1", "MVP", "SB"],
+			"1997": ["PB", "AP1", "MVP", "SB"],
+			"1998": [],
+			"1999": [],
+			"2000": [],
+			"2001": ["PB", "AP2"],
+			"2002": ["PB", "AP2"],
+			"2003": ["PB"],
+			"2004": [],
+			"2005": [],
+			"2006": [],
+			"2007": ["PB", "AP2"],
+			"2008": ["PB"],
+			"2009": ["PB"],
+			"2010": []
+		},
+		"pics":["favre1.png","favre2.png","favre3.png"],
+		"teams": [
+			{"team": "falcons", "start": 1991, "end": 1991, "careerStart":1, "careerEnd":1},
+			{"team": "packers", "start": 1992, "end": 2007, "careerStart":2, "careerEnd":16},
+			{"team": "jets", "start": 2008, "end": 2008, "careerStart":17, "careerEnd":17},
+			{"team": "vikings", "start": 2009, "end": 2010, "careerStart":18, "careerEnd":19}
+		],
+		"totals": {
+			"MVP": "3",
+			"AP": "6",
+			"OP": "1",
+			"PB": "11"
+		},
+		"championships": [1996],
+		"finals": [1996,1997]
+	},
+	{
+		"name": "Dan Marino", 
+		"nickname": "marino",
+		"age": {
+			"first": 22,
+			"last": 38
+		},
+		"awards": {
+			"1983": ["PB", "AP2"],
+			"1984": ["PB", "OP", "AP1", "MVP", "SB"],
+			"1985": ["PB", "AP1"],
+			"1986": ["PB", "AP1"],
+			"1987": ["PB"],
+			"1988": ["AP2"],
+			"1989": [],
+			"1990": [],
+			"1991": ["PB"],
+			"1992": ["PB", "AP2"],
+			"1993": [],
+			"1994": ["PB", "AP2"],
+			"1995": ["PB", "AP2"],
+			"1996": [],
+			"1997": [],
+			"1998": [],
+			"1999": []
+		},
+		"pics":["marino1.png"],
+		"teams": [
+			{"team": "dolphins", "start": 1983, "end": 1999, "careerStart":1, "careerEnd":17}
+		],
+		"totals": {
+			"MVP": "1",
+			"AP": "8",
+			"OP": "1",
+			"PB": "9"
+		},
+		"championships": [],
+		"finals": [1984]
+	},
+	{
+		"name": "Roger Staubach", 
+		"nickname": "staubach",
+		"age": {
+			"first": 27,
+			"last": 37
+		},
+		"awards": {
+			"1969": [],
+			"1970": [],
+			"1971": ["PB", "AP2", "SB"],
+			"1972": [],
+			"1973": [],
+			"1974": [],
+			"1975": ["PB", "SB"],
+			"1976": ["PB"],
+			"1977": ["PB", "SB"],
+			"1978": ["PB", "SB"],
+			"1979": ["PB"]
+		},
+		"pics":["staubach1.png","staubach2.png"],
+		"teams": [
+			{"team": "cowboys", "start": 1969, "end": 1979, "careerStart":1, "careerEnd":11}
+		],
+		"totals": {
+			"MVP": "0",
+			"AP": "1",
+			"OP": "0",
+			"PB": "6"
+		},
+		"championships": [1971,1977],
+		"finals": [1971,1975,1977,1978]
+	},
+	{
+		"name": "Johnny Unitas", 
+		"nickname": "unitas",
+		"age": {
+			"first": 23,
+			"last": 40
+		},
+		"awards": {
+			"1956": [],
+			"1957": ["PB", "AP2"],
+			"1958": ["PB", "AP1"],
+			"1959": ["PB", "AP1", "MVP"],
+			"1960": ["PB", "AP2"],
+			"1961": ["PB"],
+			"1962": ["PB"],
+			"1963": ["PB", "AP2"],
+			"1964": ["PB", "AP1", "MVP"],
+			"1965": ["AP1"],
+			"1966": ["PB"],
+			"1967": ["PB", "AP1", "MVP"],
+			"1968": ["SB"],
+			"1969": [],
+			"1970": ["SB"],
+			"1971": [],
+			"1972": [],
+			"1973": []
+		},
+		"pics":["unitas1.png"],
+		"teams": [
+			{"team": "colts", "start": 1956, "end": 1972, "careerStart":1, "careerEnd":17},
+			{"team": "chargers", "start": 1973, "end": 1973, "careerStart":18, "careerEnd":18}
+		],
+		"totals": {
+			"MVP": "3",
+			"AP": "8",
+			"OP": "0",
+			"PB": "10"
+		},
+		"championships": [1970],
+		"finals": [1968,1970]
+	},
+	{
+		"name": "Russell Wilson", 
+		"nickname": "russell",
+		"age": {
+			"first": 24,
+			"last": 32
+		},
+		"awards": {
+			"2012": ["PB"],
+			"2013": ["PB", "SB"],
+			"2014": ["PB", "SB"],
+			"2015": ["PB"],
+			"2016": [],
+			"2017": ["PB"],
+			"2018": ["PB"],
+			"2019": ["PB", "AP2"],
+			"2020": []
+		},
+		"pics":["russell1.png","russell2.png","russell3.png"],
+		"teams": [
+			{"team": "seahawks", "start": 2012, "end": 2020, "careerStart":1, "careerEnd":9}
+			
+		],
+		"totals": {
+			"MVP": "0",
+			"AP": "1",
+			"OP": "0",
+			"PB": "7"
+		},
+		"championships": [2013],
+		"finals": [2013, 2014]
+	},
+	{
+		"name": "Steve Young", 
+		"nickname": "young",
+		"age": {
+			"first": 24,
+			"last": 38
+		},
+		"awards": {
+			"1985": [],
+			"1986": [],
+			"1987": [],
+			"1988": [],
+			"1989": [],
+			"1990": [],
+			"1991": [],
+			"1992": ["PB", "OP", "AP1", "MVP"],
+			"1993": ["PB", "AP1"],
+			"1994": ["PB", "AP1", "MVP", "SB"],
+			"1995": ["PB", "AP2"],
+			"1996": ["PB"],
+			"1997": ["PB", "AP2"],
+			"1998": ["PB", "AP2"],
+			"1999": []
+		},
+		"pics":["young1.png","young2.png","young3.png"],
+		"teams": [
+			{"team": "bucaneers", "start": 1985, "end": 1986, "careerStart":1, "careerEnd":2},
+			{"team": "niners", "start": 1987, "end": 1999, "careerStart":3, "careerEnd":15}
+		],
+		"totals": {
+			"MVP": "2",
+			"AP": "6",
+			"OP": "1",
+			"PB": "7"
+		},
+		"championships": [1994],
+		"finals": [1994]
+	},
+	{
+		"name": "Otto Graham", 
+		"nickname": "otto",
+		"age": {
+			"first": 25,
+			"last": 34
+		},
+		"awards": {
+			"1946": [],
+			"1947": [],
+			"1948": [],
+			"1949": [],
+			"1950": ["PB"],
+			"1951": ["PB", "AP1", "MVP"],
+			"1952": ["PB", "AP2"],
+			"1953": ["PB", "AP1", "MVP"],
+			"1954": ["PB", "AP1"],
+			"1955": ["AP1", "MVP"]
+		},
+		"pics":["otto1.png"],
+		"teams": [
+			{"team": "browns", "start": 1946, "end": 1955, "careerStart":1, "careerEnd":10}
+		],
+		"totals": {
+			"MVP": "3",
+			"AP": "5",
+			"OP": "0",
+			"PB": "5"
+		},
+		"championships": [],
+		"finals": []
+	},
+	{
+		"name": "Bart Starr", 
+		"nickname": "starr",
+		"age": {
+			"first": 25,
+			"last": 37
+		},
+		"awards": {
+			"1956": [],
+			"1957": [],
+			"1958": [],
+			"1959": [],
+			"1960": ["PB"],
+			"1961": ["PB", "AP2"],
+			"1962": ["PB", "AP2"],
+			"1963": [],
+			"1964": ["AP2"],
+			"1965": [],
+			"1966": ["PB", "AP1", "MVP", "SB"],
+			"1967": ["SB"],
+			"1968": [],
+			"1969": [],
+			"1970": [],
+			"1971": []
+		},
+		"pics":["starr1.png", "starr2.png"],
+		"teams": [
+			{"team": "packers", "start": 1956, "end": 1971, "careerStart":1, "careerEnd":16}
+		],
+		"totals": {
+			"MVP": "1",
+			"AP": "4",
+			"OP": "0",
+			"PB": "4"
+		},
+		"championships": [1966,1967],
+		"finals": [1966,1967]
+	},
+	{
+		"name": "Fran Tarkenton", 
+		"nickname": "tarkenton",
+		"age": {
+			"first": 21,
+			"last": 38
+		},
+		"awards": {
+			"1961": [],
+			"1962": [],
+			"1963": [],
+			"1964": ["PB"],
+			"1965": ["PB"],
+			"1966": [],
+			"1967": ["PB"],
+			"1968": ["PB"],
+			"1969": ["PB"],
+			"1970": ["PB"],
+			"1971": [],
+			"1972": [],
+			"1973": ["AP2", "SB"],
+			"1974": ["PB", "SB"],
+			"1975": ["PB", "AP1", "MVP"],
+			"1976": ["PB", "SB"],
+			"1977": [],
+			"1978": []
+		},
+		"pics":["tarkenton1.png","tarkenton2.png"],
+		"teams": [
+			{"team": "vikings", "start": 1961, "end": 1966, "careerStart":1, "careerEnd":6},
+			{"team": "giants", "start": 1967, "end": 1971, "careerStart":7, "careerEnd":11},
+			{"team": "vikings", "start": 1972, "end": 1978, "careerStart":12, "careerEnd":18}
+		],
+		"totals": {
+			"MVP": "1",
+			"AP": "2",
+			"OP": "1",
+			"PB": "9"
+		},
+		"championships": [],
+		"finals": [1973,1974,1976]
+	},
+	{
+		"name": "Troy Aikman", 
+		"nickname": "aikman",
+		"age": {
+			"first": 23,
+			"last": 34
+		},
+		"awards": {
+			"1989": [],
+			"1990": [],
+			"1991": ["PB"],
+			"1992": ["PB", "SB"],
+			"1993": ["PB", "SB"],
+			"1994": ["PB"],
+			"1995": ["PB", "SB"],
+			"1996": ["PB"],
+			"1997": [],
+			"1998": [],
+			"1999": [],
+			"2000": []
+		},
+		"pics":["aikman1.png"],
+		"teams": [
+			{"team": "cowboys", "start": 1989, "end": 2000, "careerStart":1, "careerEnd":12}
+		],
+		"totals": {
+			"MVP": "0",
+			"AP": "0",
+			"OP": "0",
+			"PB": "6"
+		},
+		"championships": [1992,1993,1995],
+		"finals": [1992,1993,1995]
+	},
+	{
+		"name": "Terry Bradshaw", 
+		"nickname": "bradshaw",
+		"age": {
+			"first": 22,
+			"last": 35
+		},
+		"awards": {
+			"1970": [],
+			"1971": [],
+			"1972": [],
+			"1973": [],
+			"1974": ["SB"],
+			"1975": ["PB", "SB"],
+			"1976": [],
+			"1977": [],
+			"1978": ["PB", "AP1", "MVP", "SB"],
+			"1979": ["PB", "AP2", "SB"],
+			"1980": [],
+			"1981": [],
+			"1982": [],
+			"1983": []
+		},
+		"pics":["bradshaw1.png"],
+		"teams": [
+			{"team": "steelers", "start": 1970, "end": 1983, "careerStart":1, "careerEnd":14}
+		],
+		"totals": {
+			"MVP": "1",
+			"AP": "2",
+			"OP": "0",
+			"PB": "3"
+		},
+		"championships": [1974,1975,1978,1979],
+		"finals": [1974,1975,1978,1979]
+	},
+	{
+		"name": "Jim Kelly", 
+		"nickname": "kelly",
+		"age": {
+			"first": 26,
+			"last": 36
+		},
+		"awards": {
+			"1986": [],
+			"1987": ["PB"],
+			"1988": ["PB"],
+			"1989": [],
+			"1990": ["PB", "AP2", "SB"],
+			"1991": ["PB", "AP1", "SB"],
+			"1992": ["PB", "AP2", "SB"],
+			"1993": ["SB"],
+			"1994": [],
+			"1995": [],
+			"1996": []
+		},
+		"pics":["kelly1.png"],
+		"teams": [
+			{"team": "bills", "start": 1986, "end": 1996, "careerStart":1, "careerEnd":11}
+		],
+		"totals": {
+			"MVP": "0",
+			"AP": "3",
+			"OP": "0",
+			"PB": "5"
+		},
+		"championships": [],
+		"finals": [1990,1991,1992,1993]
+	},
+	{
+		"name": "Ken Stabler", 
+		"nickname": "stabler",
+		"age": {
+			"first": 25,
+			"last": 39
+		},
+		"awards": {
+			"1970": [],
+			"1971": [],
+			"1972": [],
+			"1973": ["PB"],
+			"1974": ["PB", "OP", "AP1", "MVP"],
+			"1975": [],
+			"1976": ["PB", "AP1", "SB"],
+			"1977": ["PB"],
+			"1978": [],
+			"1979": [],
+			"1980": [],
+			"1981": [],
+			"1982": [],
+			"1983": [],
+			"1984": []
+		},
+		"pics":["stabler1.png"],
+		"teams": [
+			{"team": "raiders", "start": 1970, "end": 1979, "careerStart":1, "careerEnd":10},
+			{"team": "oilers", "start": 1980, "end": 1981, "careerStart":11, "careerEnd":12},
+			{"team": "saints", "start": 1982, "end": 1984, "careerStart":13, "careerEnd":15}
+		],
+		"totals": {
+			"MVP": "1",
+			"AP": "2",
+			"OP": "1",
+			"PB": "4"
+		},
+		"championships": [1976],
+		"finals": [1976]
+	},
+	{
+		"name": "Kurt Warner", 
+		"nickname": "warner",
+		"age": {
+			"first": 27,
+			"last": 38
+		},
+		"awards": {
+			"1998": [],
+			"1999": ["PB", "AP1", "MVP", "SB"],
+			"2000": ["PB"],
+			"2001": ["PB", "AP1", "MVP", "SB"],
+			"2002": [],
+			"2003": [],
+			"2004": [],
+			"2005": [],
+			"2006": [],
+			"2007": [],
+			"2008": ["PB", "SB"],
+			"2009": []
+		},
+		"pics":["warner1.png"],
+		"teams": [
+			{"team": "rams", "start": 1998, "end": 2003, "careerStart":1, "careerEnd":6},
+			{"team": "giants", "start": 2004, "end": 2004, "careerStart":7, "careerEnd":7},
+			{"team": "cardinals", "start": 2005, "end": 2009, "careerStart":8, "careerEnd":12}
+		],
+		"totals": {
+			"MVP": "2",
+			"AP": "2",
+			"OP": "0",
+			"PB": "4"
+		},
+		"championships": [1999],
+		"finals": [1999,2001,2008]
+	}
+]
